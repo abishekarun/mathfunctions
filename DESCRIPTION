@@ -1,0 +1,20 @@
+Package: mathfunctions
+Type: Package
+Title: Convenient Computation of Some Mathematical functions
+Version: 0.1.0
+Authors@R: person("Arun", "Rajendran", email="arun95@math.ubc.ca",
+    role=c("aut", "cre"))
+Description: Are you tired of searching for functions or operators to perform 
+			 some common mathematical operations. Use this package to find some 
+			 of the common mathematical functions that can be applied to vectors 
+			 as well.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+Imports: ggplot2
+VignetteBuilder: knitr
+Depends: R(>= 2.10.0)

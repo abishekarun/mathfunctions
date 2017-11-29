@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# `mathfunctions`
+
+This is an R package that gives some functions for performing mathematical operations
+
+## Installation
+
+You can install mathfunctions from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("abishekarun/mathfunctions")
+```
+
+## Example
+
+See the vignette for more extensive use, but here's an example:
+
+```{r example}
+# Get 8th fibonacci number of series 0,1,1,2,3...
+mathfunctions::nthFibonacci(8) 
+```
+
+## For Developers
+
+Use the internal `pow` function as the machinery for the front-end functions such as `square`, `cube`, and `reciprocal`. 
+
+Similarly, use the internal `log` function as the machinery for the front-end functions such as `naturalLog`, `commonLog`, and `binaryLog`. 
+
+Other functions available are `check.integer`,`nthFibonacci`,`nthRoot` etc.
+
+

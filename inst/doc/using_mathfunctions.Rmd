@@ -1,0 +1,70 @@
+---
+title: "Using the `mathfunctions` package"
+author: "Arun Rajendran"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the `mathfunctions` package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+__Note__: This package isn't actually meant to be "serious". I made it just for assignment purposes.
+
+Want to perform some mathematical operations without looking for appropriate operators or searching for relevant functions from different packages. Use this package as one stop for the common mathematical functions. 
+
+```{r}
+library(mathfunctions)
+```
+
+Want squares, cubes, or reciprocals? Easy.
+
+```{r}
+square(1:10)
+cube(1:10)
+reciprocal(1:10)
+```
+
+`apply`-family friendly, too!
+
+```{r}
+my_list <- list(1:10, 0.5, -0.7)
+## So base-R-boring!
+lapply(my_list, function(x) x^2)
+## Use powers instead!
+lapply(my_list, square)
+```
+
+It even comes with the ability to display its output in plot form!
+
+```{r}
+reciprocal(1:10, plot_it=TRUE)
+```
+
+We can also find nth root of real positive values and negative values(provided the order to take root is odd) and plot the output as well
+```{r}
+nthroot(1:10,2,plot_it=TRUE)
+```
+
+We can also find log of real positive values to base 2,10 or natural log (base e).
+```{r}
+naturalLog(20)
+binaryLog(1024)
+commonLog(100)
+```
+
+We can find the nth fibonacci number of series by mentioning the first term and second term.
+```{r}
+#a - First term and b - Second term
+nthFibonacci(15) #default a=0 and b=1
+nthFibonacci(10,2,3) #Here a=2 and b=3
+```
+
+We can also check if a given number is integer or not. 
+```{r}
+check.integer(1.234)
+check.integer(12)
+#check.integer(TRUE) #Produces a error
+```
+
+

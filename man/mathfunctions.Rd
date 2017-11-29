@@ -12,8 +12,9 @@ Use this package to call functions that apply common mathematical operators
 to your vectors.
 }
 \note{
-This package isn't actually meant to be serious. It's just for
-assignment purposes.
+This package isn't actually the first version. There are many inbuilt
+functions that does similar things like log. But some functions like nthroot and
+nthFibonacci are new.
 }
 \author{
 Arun Rajendran

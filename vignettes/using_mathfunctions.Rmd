@@ -60,6 +60,17 @@ nthFibonacci(15) #default a=0 and b=1
 nthFibonacci(10,2,3) #Here a=2 and b=3
 ```
 
+We can find the n factorial of a number.
+```{r}
+fact_func(4)
+```
+
+We can also compute the sum of a finite Arithmetic progression series given the first term,difference and the number of terms in the series.
+```{r}
+sum_series(5,7,10)
+```
+
+
 We can also check if a given number is integer or not. 
 ```{r}
 check.integer(1.234)

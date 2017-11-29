@@ -7,7 +7,8 @@
 #'
 #' @name mathfunctions
 #' @author Arun Rajendran
-#' @note This package isn't actually meant to be serious. It's just for
-#' assignment purposes.
+#' @note This package isn't actually the first version. There are many inbuilt
+#' functions that does similar things like log. But some functions like nthroot and
+#' nthFibonacci are new.
 #' @docType package
 NULL

@@ -18,10 +18,16 @@
 nthFibonacci <- function(n,a=0,b=1){
     if(n<=0) stop("n must be >= 1")
     else if(!check.integer(n)) stop("n must be positive integer > 0")
-    for (i in 2:n) {
-        res <- a+b
-        a=b
-        b=res
+    if(n==1)
+        res=a
+    else if(n==2)
+        res=b
+    else if(n>2){
+        for (i in 3:n) {
+            res <- a+b
+            a=b
+            b=res
+        }
     }
     return(res)
 }

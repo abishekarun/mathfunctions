@@ -15,9 +15,9 @@
 fact_func <- function(n){
     if(n<0) stop("n must be >= 0")
     else if(!check.integer(n)) stop("n must be positive integer > 0")
-    res<-1
+
     if(n==0)
-        return(res)
+        return(1)
     else
-        res<-n*fact_func(n-1)
+        return(n*fact_func(n-1))
 }

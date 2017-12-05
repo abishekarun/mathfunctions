@@ -30,6 +30,6 @@ For Developers
 
 Use the internal `pow` function as the machinery for the front-end functions such as `square`, `cube`, and `reciprocal`.
 
-Similarly, use the internal `log` function as the machinery for the front-end functions such as `naturalLog`, `commonLog`, and `binaryLog`.
+Similarly, use the internal `logarithm` function as the machinery for the front-end functions such as `naturalLog`, `commonLog`, and `binaryLog`.
 
-Other functions available are `check.integer`,`nthFibonacci`,`nthRoot` etc.
+Other functions available are `check.integer`,`nthFibonacci`,`nthroot` etc.

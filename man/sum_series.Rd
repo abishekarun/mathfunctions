@@ -2,7 +2,7 @@
 % Please edit documentation in R/sum_series.R
 \name{sum_series}
 \alias{sum_series}
-\title{Generic function to get sum of a series}
+\title{Generic function to get sum of an arithmetic progression series}
 \usage{
 sum_series(a = 1, d = 1, n)
 }

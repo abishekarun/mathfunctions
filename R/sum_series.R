@@ -1,4 +1,4 @@
-#' Generic function to get sum of a series
+#' Generic function to get sum of an arithmetic progression series
 #'
 #' This function calculates the sum of a finite Arithmetic progression series given first term, the difference
 #' and the number of terms

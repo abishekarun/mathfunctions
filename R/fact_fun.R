@@ -10,7 +10,7 @@
 #' @examples
 #' fact_func(6)
 #' fact_func(12)
-#' @rdname factorial
+#' @rdname fact_fun
 #' @export
 fact_func <- function(n){
     if(n<0) stop("n must be >= 0")

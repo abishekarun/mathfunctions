@@ -1,4 +1,4 @@
-#' Generic Log function
+#' Generic Logarithm function
 #'
 #' This function raises a vector to any power. I'm making it internal,
 #' by not \code{export}ing, because I don't want users to use it.
